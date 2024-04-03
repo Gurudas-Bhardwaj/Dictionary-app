@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body class="font-poppins h-screen bg-orange-400 w-screen flex justify-center items-center flex-col ">
+  
+    <div class=" max-h-myHeight bg-background2 w-11/12 bg-white rounded-xl sm:w-3/4 md:w-8/12 lg:w-2/4 xl:w-5/12">
+        <div class="w-full h-12 flex items-center justify-center">
+
+            <input type="text" class="focus:outline-none pl-2 border-b-4 mt-24 font-bold text-gray-600 border-orange-400 w-3/6 m-3" id="input_box">
+            <button class="h-9 w-28 text-white font-semibold rounded-lg mt-20 bg-orange-400" id="search" >Search</button>
+        </div>
+        <div class="relative max-h-myHeight w-full invisible" id="mydiv">
+            <h1 class="font-semibold text-4xl mt-16 pl-8 " id="Title"></h1>
+            <i class="fa-regular fa-circle-play absolute top-2 cursor-pointer scale-150 invisible" style="margin-left: 90%;" id="audio" ></i>
+            <h2 class="pl-8 italic pb-7  text-gray-400" id="type"></h2>
+            <h3 class="pl-8 max-h-64 pb-6 " id="meaning"> </h3>
+            <h2 class=" ml-8 pl-2 border-l-4 italic bg-orange-100 pr-10 border-orange-500   " id="line"></h2>
+            <div class="h-2 w-full pb-10"></div>
+        </div>
+        <audio src="" id="listen"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
