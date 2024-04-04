@@ -39,7 +39,7 @@ search.addEventListener("click",()=>{
         }catch(err){
             mydiv.style.visibility="visible";
             audio.style.visibility="hidden";
-            Title.innerText="Please Check The Entered Value";
+            Title.innerText="Word Not Found";
             type.innerText=""
             meaning.innerText=""
             line.innerText=""
